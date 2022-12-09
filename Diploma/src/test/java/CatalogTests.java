@@ -43,6 +43,8 @@ public class CatalogTests {
 
         var сategory1 = By.cssSelector("ul.product-categories li:nth-of-type(1) a");
         var сategory2 = By.cssSelector("ul.product-categories li:nth-of-type(2) a");
+        
+          //остальные категории для диплома не делать, достаточно двух первых
         var сategory3 = By.cssSelector("ul.product-categories li:nth-of-type(3) a");
         var сategory4 = By.cssSelector("ul.product-categories li:nth-of-type(4) a");
         var сategory5 = By.cssSelector("ul.product-categories li:nth-of-type(5) a");
